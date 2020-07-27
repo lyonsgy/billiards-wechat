@@ -91,6 +91,9 @@
       },
       {
         "__id__": 120
+      },
+      {
+        "__id__": 121
       }
     ],
     "_prefab": null,
@@ -4257,5 +4260,21 @@
     "_originalWidth": 0,
     "_originalHeight": 0,
     "_id": "adrY8wfPFDTZjmGTlwwA0z"
+  },
+  {
+    "__type__": "78a75immpZMG63QsShXUxFP",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "is_debug": true,
+    "gravity": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_id": "ceIIXpO5tMVZ6+3Xk0OBa+"
   }
 ]

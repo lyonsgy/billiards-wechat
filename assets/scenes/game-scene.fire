@@ -87,13 +87,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 119
-      },
-      {
         "__id__": 120
       },
       {
         "__id__": 121
+      },
+      {
+        "__id__": 122
       }
     ],
     "_prefab": null,
@@ -183,7 +183,7 @@
       "array": [
         0,
         0,
-        584.558767864881,
+        556.8463522031385,
         0,
         0,
         0,
@@ -4062,6 +4062,10 @@
       "__id__": 110
     },
     "_enabled": true,
+    "cue": {
+      "__id__": 115
+    },
+    "min_dis": 50,
     "_id": "a7ZuJ0m3RGnq0iWVXsdIgM"
   },
   {
@@ -4082,6 +4086,9 @@
       },
       {
         "__id__": 118
+      },
+      {
+        "__id__": 119
       }
     ],
     "_prefab": null,
@@ -4218,6 +4225,17 @@
     "_id": "4ejC7kqPpKdYbM4+irh5IC"
   },
   {
+    "__type__": "4dcb5P24UJNfbCj/HZ33E8C",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 115
+    },
+    "_enabled": true,
+    "SHOOT_POWER": 18,
+    "_id": "7bQpDRl/xI7rW7k5bIiAe1"
+  },
+  {
     "__type__": "cc.Canvas",
     "_name": "",
     "_objFlags": 0,
@@ -4269,7 +4287,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "is_debug": true,
+    "is_debug": false,
     "gravity": {
       "__type__": "cc.Vec2",
       "x": 0,

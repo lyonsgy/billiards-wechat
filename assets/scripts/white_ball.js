@@ -36,8 +36,11 @@ cc.Class({
     // onLoad () {},
 
     start () {
-        this.cue_inst = this.cue.getComponent('cue')
+        this.body = this.getComponent(cc.RigidBody)
 
+        this.cue_inst = this.cue.getComponent('cue')
+        this.start_x = this.node.x
+        this.start_y = this.node.y
         // START（点击下去），MOVED（触摸移动），ENDED（触摸在节点范围内弹起）,CANCEL（节点范围外弹起）
         this.node.on(cc.Node.EventType.TOUCH_START, function (e) {
 
@@ -83,4 +86,22 @@ cc.Class({
     },
 
     // update (dt) {},
+
+    reset () {
+        this.node.scale = 1
+        this.node.x = this.start_x
+        this.node.y = this.start_y
+
+        this.body.linearVelocity = cc.v2(0, 0)
+        this.body.angularVelocity = 0
+    },
+    onBeginContact (contact, selfController, otherController) {
+        // 白球可能碰球杆、碰球、边、球袋
+        if (otherController.node.groupIndex === 2) { // 球袋
+            // 隔一秒以后把白球放回原点
+            this.node.scale = 0
+            this.scheduleOnce(this.reset.bind(this), 1)
+            return
+        }
+    }
 });

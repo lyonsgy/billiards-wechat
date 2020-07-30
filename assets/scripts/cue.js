@@ -24,7 +24,7 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
-        SHOOT_POWER: 18  // 冲力
+        SHOOT_POWER: 36  // 冲力
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -53,5 +53,8 @@ cc.Class({
 
         // applyLinearImpulse（冲量大小向量，球杆的原点转成世界坐标，true）
         this.body.applyLinearImpulse(cc.v2(power_x, power_y), this.node.convertToWorldSpaceAR(cc.v2(0, 0)), true);
+    },
+    onPreSolve (contact, selfController, otherController) {
+        this.node.active = false
     }
 });

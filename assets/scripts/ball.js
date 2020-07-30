@@ -45,4 +45,12 @@ cc.Class({
         // this 指的是当前组件的实例
 
     },
+    onBeginContact (contact, selfController, otherController) {
+        // 球可能碰球杆、碰球、边、球袋
+        if (otherController.node.groupIndex === 2) { // 球袋
+            // 隐藏球
+            this.node.active = false
+            return
+        }
+    }
 });

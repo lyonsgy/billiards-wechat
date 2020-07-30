@@ -183,7 +183,7 @@
       "array": [
         0,
         0,
-        556.8463522031385,
+        557.7123651925679,
         0,
         0,
         0,
@@ -1582,7 +1582,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "05AlbgvpBF4IKjkbhVE6hB"
@@ -1745,7 +1745,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "18qBsrvkRLS4QcWwNTjTAj"
@@ -1908,7 +1908,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "8aR+yKhaFIDr6/VjIPWU+C"
@@ -2071,7 +2071,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "9a2qAgK2tGILB6UwjDy8+f"
@@ -2234,7 +2234,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "d3lv2tY1BPz47lXXxcieKx"
@@ -2397,7 +2397,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "75qxNeheJGnZS1p8qHX5b+"
@@ -2560,7 +2560,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "1dhwEn61FPgoRj5ztcKS7L"
@@ -2723,7 +2723,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "0dUjYIR3VKPI0o2NwzseDY"
@@ -2886,7 +2886,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "8eZjJKaANBor2UeDcRWHnE"
@@ -3049,7 +3049,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "896IuQJH9KqZx3s0P14jpl"
@@ -3212,7 +3212,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "e0RJbJDYlMp7157WRDnDv/"
@@ -3375,7 +3375,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "95Fjde3OJPV6x53K64DvcQ"
@@ -3538,7 +3538,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "8avcj6RyBBtpNYvCb5cots"
@@ -3701,7 +3701,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "60dsDeJ2ZCF4TXWfgZf3uJ"
@@ -3864,7 +3864,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "a9AG4BkXpI1LbnnYK/btsp"
@@ -4018,8 +4018,8 @@
     "_type": 2,
     "_allowSleep": true,
     "_gravityScale": 1,
-    "_linearDamping": 0,
-    "_angularDamping": 0,
+    "_linearDamping": 1,
+    "_angularDamping": 1,
     "_linearVelocity": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -4027,7 +4027,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "b5Ol8X5jJCubQ0pxIqdYet"
@@ -4193,7 +4193,7 @@
     },
     "_angularVelocity": 0,
     "_fixedRotation": false,
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_id": "04/wzU0slMfpUc6UXfBmqY"
@@ -4232,7 +4232,7 @@
       "__id__": 115
     },
     "_enabled": true,
-    "SHOOT_POWER": 18,
+    "SHOOT_POWER": 100,
     "_id": "7bQpDRl/xI7rW7k5bIiAe1"
   },
   {

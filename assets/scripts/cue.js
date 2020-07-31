@@ -24,7 +24,7 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
-        SHOOT_POWER: 36  // 冲力
+        SHOOT_POWER: 60  // 冲力
     },
 
     // LIFE-CYCLE CALLBACKS:

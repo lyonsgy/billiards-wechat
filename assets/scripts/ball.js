@@ -38,7 +38,9 @@ cc.Class({
 
     start () {
         // this 指的是当前组件的实例
-
+        this.body = this.getComponent(cc.RigidBody)
+        this.start_x = this.node.x
+        this.start_y = this.node.y
     },
     // dt 距离上一次刷新的时间
     update (dt) {
@@ -52,5 +54,14 @@ cc.Class({
             this.node.active = false
             return
         }
+    },
+    reset () {
+        this.node.active = true
+        this.node.x = this.start_x
+        this.node.y = this.start_y
+        this.node.rotation = 0
+        // 线性速度和旋转置为0
+        this.body.linearVelocity = cc.v2(0, 0)
+        this.body.angularVelocity = 0
     }
 });

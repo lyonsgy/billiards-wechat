@@ -66,5 +66,6 @@ cc.Class({
             return
         }
         // 是否所有球都打入进去
+        this.check_game_over()
     },
 });
